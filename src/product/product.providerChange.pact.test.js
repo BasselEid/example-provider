@@ -35,7 +35,7 @@ describe('Pact Verification', () => {
         { deployed: true },
         { matchingBranch: true }
       ],
-      pactBrokerUrl: process.env.PACT_URL,
+      pactBrokerUrl: process.env.PACT_BROKER_BASE_URL,
       // https://docs.pact.io/pact_broker/advanced_topics/pending_pacts
       enablePending: true,
       // https://docs.pact.io/pact_broker/advanced_topics/wip_pacts
